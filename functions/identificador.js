@@ -66,57 +66,7 @@ async function identificador() {
 'ky': kirguís
 'lo': laosiano
 'la': latín
-'lv': letón
-'lt': lituano
-'lb': luxemburgués
-'mk': macedonio
-'mg': malgache
-'ms': malayo
-'ml': malayalam
-'mt': maltés
-'mi': maorí
-'mr': maratí
-'mn': mongol
-'ne': nepalí
-'no': noruego
-'ps': pastún
-'fa': persa
-'pl': polaco
-'pt': portugués
-'pa': punjabí
-'ro': rumano
-'ru': ruso
-'sm': samoano
-'gd': gaélico escocés
-'sr': serbio
-'st': sesotho
-'sn': shona
-'sd': sindhi
-'si': cingalés
-'sk': eslovaco
-'sl': esloveno
-'so': somalí
-'es': español
-'su': sundanés
-'sw': suajili
-'sv': sueco
-'tg': tayiko
-'ta': tamil
-'tt': tártaro
-'te': telugu
-'th': tailandés
-'tr': turco
-'tk': turcomano
-'uk': ucraniano
-'ur': urdu
-'ug': uigur
-'uz': uzbeko
-'vi': vietnamita
-'cy': galés
-'xh': xhosa
-'yi': yidis
-'yo': yoruba
-'zu': zulú`;
+`
                 ctx.replyWithPhoto({ url: imageUrl }, { caption: caption });
             } catch (error) {
                 cx.warn("Hay un error");
